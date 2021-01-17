@@ -7,12 +7,12 @@ public class calculo {
 		System.out.println("Qual o ano atual?: ");
 		Scanner sc = new Scanner(System.in);
 		int anoatual = sc.nextInt();
-		System.out.println("Qual o ano em que voc� nasceu?");
+		System.out.println("Qual o ano em que você nasceu?");
 		int datanascimento = sc.nextInt();
 		
 		int calc = anoatual - datanascimento;
 		
-		System.out.println("Sua idade nesse ano �: "+calc);
-		
+		System.out.println("Sua idade nesse ano é: "+calc);
+		System.out.println("Você está ficando velho!!!")
 	}
 }
